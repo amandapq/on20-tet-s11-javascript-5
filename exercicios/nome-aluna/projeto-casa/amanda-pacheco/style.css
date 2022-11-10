@@ -1,0 +1,73 @@
+body {
+    background-color: aliceblue;
+    color:rgb(224, 101, 64); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+h1 {
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#sec-buttons {
+    width: 80%;
+    min-height: 100vh;
+    margin-left: 20px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+#sec-cards{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+button {
+    margin: auto;
+    font-size: .7em;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 12em;
+    padding: 5px;
+    cursor: pointer;   
+}
+.card {   
+    border: 1px groove rgb(224, 101, 64);
+    box-shadow: 3px 3px 4px rgb(94, 147, 228);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 35px 0;
+    width: 180px;
+    height: 250px;
+}
+.img-card {
+    width: 100px;
+}
+.subtitle {
+    font-size: .7em;
+    opacity: 0.6;
+} 
+
+.footer {
+    background-color: rgb(94, 147, 228;
+    border-radius: 5px;
+    border: solid;
+    color:rgb(224, 101, 64);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
